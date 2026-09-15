@@ -60,7 +60,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'ComicVerse.urls'
+ROOT_URLCONF = 'ComicVerse.ComicVerse.urls'
 
 TEMPLATES = [
     {
@@ -77,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'ComicVerse.wsgi.application'
+WSGI_APPLICATION = 'ComicVerseComicVerse..wsgi.application'
 
 
 # Database
